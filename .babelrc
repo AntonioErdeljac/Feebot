@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "preact",
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "preact.h",
+      },
+    ],
+  ],
+}

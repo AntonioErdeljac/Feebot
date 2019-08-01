@@ -1,0 +1,37 @@
+{
+  "name": "feebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioErdeljac/Feebot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonioErdeljac/Feebot/issues"
+  },
+  "homepage": "https://github.com/AntonioErdeljac/Feebot#readme",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "8.0.6",
+    "babel-preset-latest": "6.24.1",
+    "babel-preset-preact": "2.0.0",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "13.2.0",
+    "eslint-plugin-import": "2.18.2",
+    "webpack": "4.39.0",
+    "webpack-cli": "3.3.6"
+  },
+  "dependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/plugin-transform-react-jsx": "7.3.0",
+    "preact": "8.4.2",
+    "preact-dom": "1.0.1"
+  }
+}
